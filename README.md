@@ -28,7 +28,7 @@ This is the official implementation of our paper "[Riemannian Fuzzy K-Means](htt
 
 > Existing [Riemannian K-Means algorithms](https://geomstats.github.io/api/geomstats.learning.html#geomstats.learning.kmeans.RiemannianKMeans) require iterative updates of cluster centers and assignments. Since the cluster centers lie on a Riemannian manifold, each update involves solving a Riemannian optimization problem to handle the manifold constraints. The repeated Riemannian optimizations result in an **unacceptable computational complexity**.
 
-One of our contributions is the proposal of the Riemannian Fuzzy K-Means algorithm, which **<span style="color:red;">reduces the $\mathcal{O}(N)$</span>**  Riemannian optimizations required by the Riemannian K-Means algorithm to **<span style="color:red;">just a single one</span>**. This makes large-scale clustering on manifolds feasible.
+One of our contributions is the proposal of the Riemannian Fuzzy K-Means algorithm, which reduces the O(N) times Riemannian optimizations required by the Riemannian K-Means algorithm to **<span style="color:red;">just a single one</span>**. This makes large-scale clustering on manifolds feasible.
 
 Another contribution is the extension of the well-known [Adan](https://github.com/sail-sg/Adan) algorithm to Riemannian manifolds (Radan) using techniques from Riemannian geometry, enabling it to operate on manifolds and further accelerating optimization with the Nesterov momentum method.
 
