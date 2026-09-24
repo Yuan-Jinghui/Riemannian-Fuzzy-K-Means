@@ -1,24 +1,24 @@
 
 
-# Riemannian Fuzzy K-Means
+# Riemannian Fuzzy K-Means (on product manifolds)
 
 <!-- Insert cover image here -->
 
 <p align="center">
-  <img src="image.png" alt="Paper Title" width="800">
+  <img src="figure1.png" alt="Paper Title" width="800">
 </p>
 <p align="center">
-  <a href="https://openreview.net/forum?id=9VmOgMN4Ie"><img src="https://img.shields.io/badge/Openreview-Anonymous(681)-b31b1b.svg" alt="Openreview"></a>
+  <a href="https://openreview.net/forum?id=RURIyF9Vuu"><img src="https://img.shields.io/badge/Openreview-preprint-b31b1b.svg" alt="Openreview"></a>
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.9+-green.svg" alt="Matlab"></a>
   <a href="https://github.com/pchlenski/manify/tree/main"><img src="https://img.shields.io/badge/Manify-Latest Version+-blue.svg" alt="Python"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
-Since **our algorithm has already been integrated into the non-Euclidean machine learning library Manify**, we will maintain our code [**<span style="color:red;">there</span>**](https://github.com/pchlenski/manify/tree/main).
+Since **our algorithm has already been integrated into the non-Euclidean machine learning library Manify**, we will maintain our code [**<span style="color:red;">there</span>**](https://github.com/pchlenski/manify/tree/main). The paper is currently a preprint, we will continuously update the homepage whenever we identify any typographical errors (See Update.md).
 
 ## 📜 Introduction
 
-This is the official implementation of our paper "[Riemannian Fuzzy K-Means](https://openreview.net/forum?id=9VmOgMN4Ie)" . In this paper, we propose two key algorithms: **Riemannian Fuzzy K-Means (RFK)** and the **Riemannian version of [Adan](https://github.com/sail-sg/Adan) (Radan)**, with rigorous proofs and extensive experimental validation.
+This is the official implementation of our paper "[Riemannian Fuzzy K-Means (on product manifolds)](https://openreview.net/forum?id=RURIyF9Vuu)" . In this paper, we propose two key algorithms: **Riemannian Fuzzy K-Means (RFK)** and the **Riemannian version of [Adan](https://github.com/sail-sg/Adan) (Radan)**, with rigorous proofs and extensive experimental validation.
 
 > Clustering data on Riemannian manifolds, especially in hyperbolic spaces, has become an important problem in fields such as [bioinformatics](https://www.nature.com/articles/s41467-020-16822-4) and [natural language processing](https://ieeexplore.ieee.org/abstract/document/9658224). However, due to the complexity of Riemannian manifolds, how to perform fast and effective clustering on them has remained an open problem until now.
 
@@ -104,12 +104,13 @@ git clone https://github.com/pchlenski/manify.git
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@article{Yuan2025,
-  title={Riemannian Fuzzy K-Means},
-  author={Anonymous},
-  journal={OpenReview},
-  year={2025},
-  url={https://openreview.net/forum?id=9VmOgMN4Ie}
+@inproceedings{
+yuan2025riemannian,
+title={Riemannian Fuzzy K-Means on Product Manifolds},
+author={Jh Yuan and Zhuo Liu and Feiping Nie},
+booktitle={Non-Euclidean Foundation Models: Advancing AI Beyond Euclidean Frameworks},
+year={2025},
+url={https://openreview.net/forum?id=RURIyF9Vuu}
 }
 ```
 
