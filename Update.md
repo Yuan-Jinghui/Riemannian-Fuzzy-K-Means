@@ -1,0 +1,10 @@
+**Note:** The paper associated with this repository is a preprint (presented at the NeurIPS 2025 NEGEL Workshop, which is non-archival) and has not been published in formal proceedings.
+
+ After re-examining our open-source code, we found some issues in it, including typographical errors in the preprint and bugs in the code. We would like to note the following:
+
+1. For the VAE datasets, the data loading script generated labels from the file index when concatenating the 10-fold embeddings (with the number of clusters set to 10), while the baseline algorithms used the true labels from the `y` files. The metrics for those three rows therefore reflect the separability of the 10-fold structure in the embedding space, whereas the baselines reflect class recovery. The two were not in the same label space, and the results for those three rows are not comparable. This pattern appears in the scripts for all three VAE datasets; it originates in the data loading step and is not an issue with the RFK algorithm itself. You can still use the RFK implementation in [manify](https://github.com/pchlenski/manify) for your own projects (thanks to @pchlenski for maintaining the code).
+2. There is one typographical error: in Table 9, the entries in columns 3-10 for rows 1-10 and 14-16 were recorded as Precision instead of Purity.
+3. There are also typographical errors in notation and formatting affecting some equations including (42), (43), (44), and the last line of code in the appendix, `last_grad.copy_(manifold.proju(p, last`, is missing `))` due to a copy-paste error.
+4. The remaining 13 datasets (7 Gaussian datasets, CiteSeer, Cora, PolBlogs, Olsson, Paul, PolBooks) are unaffected. The label-independent timing and loss comparisons in Tables 1 and 2 are also unaffected, as are the non-VAE datasets in the other tables.
+
+Corrections for the items above will be provided together with a revised version of the preprint. Until that revision is released, this note serves as the current, complete correction notice.
