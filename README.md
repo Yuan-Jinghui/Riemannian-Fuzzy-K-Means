@@ -14,7 +14,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
-Since **our algorithm has already been integrated into the non-Euclidean machine learning library Manify**, we will maintain our code [**<span style="color:red;">there</span>**](https://github.com/pchlenski/manify/tree/main). The paper is currently a preprint, we will continuously update the homepage whenever we identify any typographical errors (See Update.md).
+Since **our algorithm has already been integrated into the non-Euclidean machine learning library Manify**, we will maintain our code [**<span style="color:red;">there</span>**](https://github.com/pchlenski/manify/tree/main). The paper is currently a preprint, we will continuously update the homepage whenever we identify any errors (See Update.md).
 
 ## 📜 Introduction
 
