@@ -17,7 +17,7 @@
 
 > [!IMPORTANT]
 > - **Note 1 (Maintenance):** Since our algorithm has already been integrated into the non-Euclidean machine learning library [**Manify**](https://github.com/pchlenski/manify), we will actively maintain the primary codebase there.
-> - **Note 2 (Errata & Revision):** This paper is an **unpublished work-in-progress** presented at a **non-archival workshop**. As we have identified some errors in the initial manuscript, **an updated preprint is currently in preparation**. All identified issues and corrected results are transparently documented in [Update.md](Update.md) and [Update_V2.md](Update_V2.md).
+> - **Note 2 (Errata & Revision):** This paper is an **unpublished work-in-progress** presented at a **non-archival workshop (NEGEL)**. As we have identified some errors in the initial manuscript, **an updated preprint is currently in preparation**. All identified issues and corrected results are transparently documented in [Update.md](Update.md) and [Update_V2.md](Update_V2.md).
 
 ## 📜 Introduction
 
